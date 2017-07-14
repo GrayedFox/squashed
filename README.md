@@ -13,6 +13,6 @@ Then from inside the squashed npm package folder, do
 
 `npm link`
 
-Now you can use it like so:
-
-`squashed`
+Now simply navigate to the root folder of the git project and type
+`squashed` into your command line. Will output a message and also return
+ true or false so that it can be easily integrated into a CI task runner.
