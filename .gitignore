@@ -1,0 +1,10 @@
+### IntelliJ
+.idea
+out
+### Node template
+node_modules/
+.npm
+.env
+### Logs
+logs/
+*.log

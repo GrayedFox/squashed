@@ -1,0 +1,18 @@
+{
+  "name": "squashed",
+  "version": "1.0.4",
+  "description": "A nifty tool to check if your branch needs to be rebased/squashed",
+  "main": "app.js",
+  "bin": {
+    "squashed": "bin/squashed"
+  },
+  "scripts": {
+    "test": "squashed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grayedfox/squashed.git"
+  },
+  "author": "Che Fisher",
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+#! /usr/bin/env node
+
+squashedResult = require('../app.js')
+squashedResult
