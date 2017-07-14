@@ -1,6 +1,6 @@
 const execProcess = require('./execProcess.js')
 
-execProcess.result('sh countBranchCommits.sh', function(err, response) {
+execProcess.result('sh node_modules/squashed/countBranchCommits.sh', function(err, response) {
   if (err) {
     console.log(err)
   } else {

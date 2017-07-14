@@ -1,3 +1,4 @@
 #! /usr/bin/env node
 
-node_modules/squashed/node app.js
+squashedResult = require(../app.js)
+squashedResult
