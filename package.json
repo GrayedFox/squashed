@@ -1,0 +1,12 @@
+{
+  "name": "squashed",
+  "version": "1.0.0",
+  "description": "A nifty tool to check if your branch needs to be rebased/squashed",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "squashed": "node app.js"
+  },
+  "author": "Che Fisher",
+  "license": "MIT"
+}
