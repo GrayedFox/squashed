@@ -6,10 +6,10 @@ execProcess.result('sh node_modules/squashed/countBranchCommits.sh', function(er
   } else {
     if (response > 1) {
       console.log('You need to squash your commits! Do a rebase!')
-      return false
+      process.exit(1)
     } else {
       console.log('Merge away McLoven')
-      return true
+      process.exit(0)
     }
   }
 })
