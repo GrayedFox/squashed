@@ -43,12 +43,12 @@ const init = () => {
   if (process.env.TRAVIS_PULL_REQUEST_BRANCH) {
     commitRef = process.env.TRAVIS_PULL_REQUEST_SHA
   }
-  console.log(`Commit reference: ${commitRef}`)
+  console.log(`Commit Reference: ${commitRef}`)
 }
 
 init()
 
-Promise.all([commandHandler(`getBranchCommitCount.sh ${commitRef}`), commandHandler('getFormattedBranchCommits.sh')]).then(
+Promise.all([commandHandler(`getBranchCommitCount.sh ${commitRef}`), commandHandler(`getFormattedBranchCommits.sh ${commitRef}`)]).then(
   ([commitCount, formattedBranchCommits]) => {
     if (commitCount > 1) {
       console.log(`
