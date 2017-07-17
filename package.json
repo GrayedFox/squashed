@@ -1,6 +1,6 @@
 {
   "name": "squashed",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A nifty tool to check if your branch needs to be rebased/squashed",
   "main": "app.js",
   "bin": {
