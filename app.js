@@ -48,7 +48,7 @@ const init = () => {
 
 init()
 
-Promise.all([commandHandler(`getBranchCommitCount.sh ${commitRef}`), commandHandler('getFormattedBranchCommits.sh')]).then(
+Promise.all([commandHandler(`getBranchCommitCount.sh ${commitRef}`), commandHandler(`getFormattedBranchCommits.sh ${commitRef}`)]).then(
   ([commitCount, formattedBranchCommits]) => {
     if (commitCount > 1) {
       console.log(`
