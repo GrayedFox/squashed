@@ -43,7 +43,7 @@ const init = () => {
   if (process.env.TRAVIS_PULL_REQUEST_BRANCH) {
     commitRef = process.env.TRAVIS_PULL_REQUEST_SHA
   }
-  console.log(`Commit reference: ${commitRef}`)
+  console.log(`Commit Reference: ${commitRef}`)
 }
 
 init()
